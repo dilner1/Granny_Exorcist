@@ -1,4 +1,4 @@
-// This is for the bullets etc whatever we want to shoot
+// This is for the bullets (Called drops for the moment) etc whatever we want to shoot
 function Drop(x, y) {
     this.x = x;
     this.y = y;
@@ -25,6 +25,6 @@ function Drop(x, y) {
       };
 
     this.move = function() {
-        this.y = this.y - 5; // Spacing for the bullets.
+        this.y = this.y - 5; // Spacing for the bullets being shot.
     }
 }

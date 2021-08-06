@@ -1,5 +1,4 @@
 // These are our aliens (called flowers here) etc whatever we want to attack
-
 function Flower(x, y) {
     this.x = x;
     this.y = y;

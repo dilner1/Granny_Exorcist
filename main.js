@@ -1,5 +1,4 @@
 // Sets up the program (J5)
-
 var ship;
 var flowers = [];
 var drops = [];
