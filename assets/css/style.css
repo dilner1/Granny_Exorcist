@@ -1,0 +1,21 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    background-color: #6064E8;
+    background-repeat: none;
+    background-size: cover;
+}
+
+#game_heading {
+    text-align: center;
+    background-color: #F9BE48;
+    width: 100%;
+    background-size: cover;
+    padding: 2rem;
+}
