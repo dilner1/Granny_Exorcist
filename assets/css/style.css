@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 
 * {
@@ -13,9 +14,12 @@ body {
 }
 
 #game_heading {
+    font-family: Bangers;
+    font-size: 5rem;
+    color: #FFFFFF;
     text-align: center;
     background-color: #F9BE48;
     width: 100%;
     background-size: cover;
-    padding: 2rem;
+    padding: 1rem;
 }
