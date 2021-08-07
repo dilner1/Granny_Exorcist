@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #6064E8;
+    background-repeat: none;
+    background-size: cover;
+}
+
+#game_heading {
+    font-family: Bangers;
+    font-size: 5rem;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #F9BE48;
+    width: 100%;
+    background-size: cover;
+    padding: 1rem;
+}
+
+.start_game {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding-top: 2rem;
+
+}
+
+.start_game a {
+    text-decoration: none;
+}
