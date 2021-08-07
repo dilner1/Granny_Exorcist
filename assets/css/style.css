@@ -21,6 +21,111 @@ body {
     padding: 1rem;
 }
 
+#intro-screen-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+#intro-screen {
+    background: url('/assets/images/intro-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+    justify-content: center;
+}
+#intro-text {
+    position: relative;
+    text-align: center;
+    z-index: 2;
+    color: yellow;
+    animation: text-scroll;
+    animation-duration: 35s;
+    overflow: hidden;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+#intro-text p {
+    text-align: center;
+    line-height: 60px;
+    font-size: large;
+    text-shadow: 1px 1px 2px black;
+}
+@keyframes text-scroll {
+    0%
+    {
+        top: 0;
+    }
+    100%
+    {
+        top: -1610px;
+    }
+}
+.rain {
+    width: 600px;
+    height: 400px;
+    z-index: 1;
+    background: url('/assets/images/rain.png') no-repeat center center;
+    background-size: cover;
+    animation: rain .123s linear infinite;
+    transition: ease-in;
+}
+.rain:before {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background: #FFFFFF;
+    animation: lightning 4s linear infinite;
+    opacity: 0;
+}
+@keyframes rain {
+    0%
+    {
+        background-position: 0% 0%;
+    }
+    100%
+    {
+        background-position: 5% 100%;
+    }
+}
+@keyframes lightning {
+    0%
+    {
+        opacity: 0;
+    }
+    10%
+    {
+        opacity: 0;
+    }
+    11%
+    {
+        opacity: 1;
+    }
+    14%
+    {
+        opacity: 0;
+    }
+    20%
+    {
+        opacity: 0;
+    }
+    21%
+    {
+        opacity: 1;
+    }
+    24%
+    {
+        opacity: 0;
+    }
+    104%
+    {
+        opacity: 0;
+    }
+}
+
 .start_game {
     text-align: center;
     color: #FFFFFF;
@@ -30,6 +135,8 @@ body {
 
 .start_game a {
     text-decoration: none;
+    color: #ffffff;
+    font-size: 200%;
 }
 
 #canvas {
