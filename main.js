@@ -1,19 +1,21 @@
 // Sets up the program (J5)
 var cnv;
 var granny;
-var ship;
+var grannyImg;
+var heartImg;
 var flowers = [];
 var drops = [];
 
 function preload() {
-    granny = loadImage('assets/images/granny.png');
+    grannyImg = loadImage('assets/images/granny.png');
+    heartImg = loadImage('assets/images/heart_one.png')
 }
 
 function setup() {
     cnv = createCanvas(600, 400);
     cnv.parent('canvas');
 
-    ship = new Ship();
+    granny = new Granny();
     // drop = new Drop(width/2, height/2);
     for (var i = 0; i < 6; i++) {
         flowers[i] = new Flower(i * 80 + 80, 60);
@@ -22,8 +24,8 @@ function setup() {
 
 function draw() {
     background(51);
-    ship.show();
-    ship.move();
+    granny.show();
+    granny.move();
 
 
     for (var i = 0; i < drops.length; i++) {
@@ -64,20 +66,20 @@ function draw() {
 // Function for key releasing:
 function keyReleased() {
     if (key != ' ') {
-        ship.setDir(0);
+        granny.setDir(0);
     }
 }
 
 // Function for key pressing: 
 function keyPressed() {
     if (key === ' ') {
-        var drop = new Drop(ship.x, height);
+        var drop = new Drop(granny.x, height);
         drops.push(drop);
     }
 
     if (keyCode === RIGHT_ARROW) {
-        ship.setDir(1);
+        granny.setDir(1);
     } else if (keyCode === LEFT_ARROW) {
-        ship.setDir(-1);
+        granny.setDir(-1);
     }
 }

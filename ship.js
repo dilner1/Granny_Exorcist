@@ -1,5 +1,5 @@
 // This is our spaceship etc whatever we want to fly
-function Ship() {
+function Granny() {
     this.x = width / 2;
     this.xdir = 0;
 
@@ -8,7 +8,7 @@ function Ship() {
         // fill(255); //White color
         // rectMode(CENTER);
         // rect(this.x, height-20, 20, 60); // Shape of "ship"
-        image(granny, this.x, height - 60, 35, 60);
+        image(grannyImg, this.x, height - 60, 35, 60);
     }
 
     this.setDir = function(dir) {
