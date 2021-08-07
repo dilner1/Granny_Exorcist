@@ -1,5 +1,5 @@
 // This is for the bullets (Called drops for the moment) etc whatever we want to shoot
-function Drop(x, y) {
+function Heart(x, y) {
     this.x = x;
     this.y = y;
     this.r = 8;

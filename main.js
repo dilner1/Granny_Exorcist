@@ -4,7 +4,7 @@ var granny;
 var grannyImg;
 var heartImg;
 var flowers = [];
-var drops = [];
+var hearts = [];
 
 function preload() {
     grannyImg = loadImage('assets/images/granny.png');
@@ -28,13 +28,13 @@ function draw() {
     granny.move();
 
 
-    for (var i = 0; i < drops.length; i++) {
-        drops[i].show();
-        drops[i].move();
+    for (var i = 0; i < hearts.length; i++) {
+        hearts[i].show();
+        hearts[i].move();
         for (var j = 0; j < flowers.length; j++) {
-            if (drops[i].hits(flowers[j])) {
+            if (hearts[i].hits(flowers[j])) {
                 flowers[j].grow();
-                drops[i].evaporate();
+                hearts[i].evaporate();
             }
         }
     }
@@ -57,9 +57,9 @@ function draw() {
         }
     }
 
-    for (var i = drops.length - 1; i >= 0; i--) {
-        if (drops[i].toDelete) {
-            drops.splice(i, 1);
+    for (var i = hearts.length - 1; i >= 0; i--) {
+        if (hearts[i].toDelete) {
+            hearts.splice(i, 1);
         }
     }
 }
@@ -73,8 +73,8 @@ function keyReleased() {
 // Function for key pressing: 
 function keyPressed() {
     if (key === ' ') {
-        var drop = new Drop(granny.x, height);
-        drops.push(drop);
+        var heart = new Heart(granny.x, height);
+        hearts.push(heart);
     }
 
     if (keyCode === RIGHT_ARROW) {
