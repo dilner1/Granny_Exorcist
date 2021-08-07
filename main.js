@@ -1,8 +1,13 @@
 // Sets up the program (J5)
 var cnv;
+var granny;
 var ship;
 var flowers = [];
 var drops = [];
+
+function preload() {
+    granny = loadImage('assets/images/granny.png');
+}
 
 function setup() {
     cnv = createCanvas(600, 400);
@@ -19,6 +24,7 @@ function draw() {
     background(51);
     ship.show();
     ship.move();
+
 
     for (var i = 0; i < drops.length; i++) {
         drops[i].show();
