@@ -78,7 +78,7 @@ body {
     width: 600px;
     height: 400px;
     background: #FFFFFF;
-    animation: lightning 4s linear infinite;
+    animation: lightning 6s linear infinite;
     opacity: 0;
 }
 @keyframes rain {
@@ -102,7 +102,7 @@ body {
     }
     11%
     {
-        opacity: 1;
+        opacity: .7;
     }
     14%
     {
@@ -114,7 +114,7 @@ body {
     }
     21%
     {
-        opacity: 1;
+        opacity: .5;
     }
     24%
     {
