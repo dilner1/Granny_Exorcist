@@ -1,8 +1,6 @@
 # Granny Exorcist
 ** story
 
-** link game 
-
 ** website image game
 
 ## Features
@@ -25,9 +23,9 @@
 
 ## Deployment
 
-**
+** info
 
-** Live link
+See the live website here -> [Granny Exorsist](https://dilner1.github.io/Hackathon_Game_new/)
 
 ## Credits
 
