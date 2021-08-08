@@ -8,7 +8,8 @@ var hearts = [];
 
 function preload() {
     grannyImg = loadImage('assets/images/granny.png');
-    heartImg = loadImage('assets/images/heart_one.png')
+    //heartImg = loadImage('assets/images/heart_one.png');
+    monsterImg = loadImage('assets/images/monster_one.png');
 }
 
 function setup() {
@@ -27,12 +28,12 @@ function draw() {
     granny.show();
     granny.move();
 
-
     for (var i = 0; i < hearts.length; i++) {
         hearts[i].show();
         hearts[i].move();
         for (var j = 0; j < flowers.length; j++) {
             if (hearts[i].hits(flowers[j])) {
+                //flowers[i].change();
                 flowers[j].grow();
                 hearts[i].evaporate();
             }
@@ -70,13 +71,21 @@ function keyReleased() {
     }
 }
 
+// count of hits
+var hits = 0;
 // Function for key pressing: 
+
 function keyPressed() {
     if (key === ' ') {
         var heart = new Heart(granny.x, height);
         hearts.push(heart);
+        
+        // if (heart.hits) {
+        //     hits++;
+        //     console.log(hits)
+        // }
     }
-
+    
     if (keyCode === RIGHT_ARROW) {
         granny.setDir(1);
     } else if (keyCode === LEFT_ARROW) {
