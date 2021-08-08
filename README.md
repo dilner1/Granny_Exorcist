@@ -48,6 +48,17 @@ When you click the start button, you will get directed to the game page.
 - Bubbles color: purple
 - Bubble amount: 6
 
+## Technologies
+### Languages
+- HTML5
+- CSS
+- JavaScript
+### Frameworks, Libraries & Programs
+- GitHub
+- GitPod
+- Google Fonts
+- Iamresponsivedesign
+
 ## Testing
 
 ** info
