@@ -10,6 +10,7 @@ body {
     background-color: #6064E8;
     background-repeat: none;
     background-size: cover;
+
 }
 
 #game_heading {
@@ -139,8 +140,20 @@ body {
     font-size: 200%;
 }
 
+.start_game a:hover {
+    color: yellow;;
+}
+
 #canvas {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.left_text {
+    float: left;
+    position:absolute;
+    padding: 5% 0 5% 7%;
+    color: white;
+    line-height: 2rem;
 }
