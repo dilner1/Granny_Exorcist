@@ -28,7 +28,7 @@ body {
     overflow: hidden;
 }
 #intro-screen {
-    background: url('./assets/images/intro-background.png');
+    background: url('../images/intro-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 600px;
@@ -67,7 +67,7 @@ body {
     width: 600px;
     height: 400px;
     z-index: 1;
-    background: url('./assets/images/rain.png') no-repeat center center;
+    background: url('../images/rain.png') no-repeat center center;
     background-size: cover;
     animation: rain .123s linear infinite;
     transition: ease-in;
