@@ -1,4 +1,5 @@
 // These are our aliens (called flowers here) etc whatever we want to attack
+var score = 0;
 function Flower(x, y) {
     this.x = x;
     this.y = y;
@@ -7,12 +8,14 @@ function Flower(x, y) {
     this.xdir = 1;
 
     // This is what happens when a bullet hits a ship.     
-    this.grow = function() {
-        this.r = this.r + 2;
-    }
+    // this.grow = function() {
+    //     this.r = this.r + 2;
+    // }
 
+    // this is what happens when the heart hits a monster
     this.change = function() {
-        image(monsterImg, this.x, this.y, 20, 20);
+        //image(heartImg, this.x, this.y, 50, 50);
+        return(++score);
     }
 
     this.shiftDown = function() {
@@ -29,6 +32,7 @@ function Flower(x, y) {
         fill(255, 0, 200, 150); 
         rectMode(CENTER);
         //ellipse(this.x, this.y, this.r*2, this.r*2);
-        image(monsterImg, this.x, this.y, 50, 50);
+        
+        image(monsterImg, this.x, this.y, 50, 50)
     }
 }

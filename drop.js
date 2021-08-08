@@ -33,7 +33,7 @@ function Heart(x, y, size) {
     }
 }
 
-// new function added to create the flying heart
+// this function creates Custom shapes (heart)
 function heartShape(x, y, size) {
     beginShape();
     vertex(x, y);
