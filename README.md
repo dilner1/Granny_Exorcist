@@ -31,10 +31,22 @@ You will start at the landing page, where you can find the story about the game.
 When you click the start button, you will get directed to the game page.
 
 ## Features
-
-** landing page
-
-** game page
+- Font Family: Press Start 2P
+### Heading
+- Background color: F9BE48
+- Text color: #FFFFFF
+- Font Family: Press Start 2P
+### Landing Page
+- Story screen size: 600px 400px
+- Background color: #6064E8
+- Title color: standard yellow
+- Button links to game page
+### Game Page
+- Game screen size: 600px 400px
+- Background color: black
+- Granny image
+- Bubbles color: purple
+- Bubble amount: 6
 
 ## Testing
 
