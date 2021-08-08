@@ -60,16 +60,9 @@ When you click the start button, you will get directed to the game page.
 - Iamresponsivedesign
 
 ## Testing
-
-** info
-
-### Validator Testing
-
-** HTML W3C
-
-** CSS 
-
-** JavaScript
+- HTML: validator.w3.org
+- CSS: jigsaw.w3.org
+- JavaScript: beautifytools.com
 
 ## Deployment
 
