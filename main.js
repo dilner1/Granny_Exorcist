@@ -45,12 +45,7 @@ function draw() {
                     textSize(40);
                     textAlign(CENTER, CENTER)
                     text("Granny Wins!", width/2, height/2);
-                } else {
-                    fill(255,0,0);
-                    textSize(40);
-                    textAlign(CENTER, CENTER)
-                    text("One Down", width/2, height/2);
-                }
+                } 
                 
                 hearts[i].evaporate();
             }
