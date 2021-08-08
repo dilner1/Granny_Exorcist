@@ -19,11 +19,16 @@ only she can thwart this great evil.....
 
 she is....
 
-The Granny Exorcist
+<h2>The Granny Exorcist</h2>
 
 ![](assets/images/granny-small.png)
 
 ** website image game = iamresponsive, when game is ready
+
+## UX Design
+You will start at the landing page, where you can find the story about the game. This game is build in retro style with old fashion colors, font family and image style. 
+
+When you click the start button, you will get directed to the game page.
 
 ## Features
 
