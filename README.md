@@ -57,22 +57,30 @@ The aliens speed up fast to make the game more difficult.
 ![](assets/images/website.JPG)
 
 ## Features
-- Font Family: Press Start 2P
+- Google Font Family: Press Start 2P
+- Background color: #6064E8
 ### Heading
 - Background color: #F9BE48
-- Text color: #FFFFFF
-- Font Family: Press Start 2P
+- Text color: #FFFFFF / white
 ### Landing Page
-- Story screen size: 600px 400px
-- Background color: #6064E8
-- Title color: standard yellow
-- Button links to game page
+- Story screen size: 600px 400px, center, top
+- Story screen background: image
+- Story text color: standard yellow
+- Button text color: white
+- Button text color hover over: standard yellow
+- Start button links to game page
 ### Game Page
-- Game screen size: 600px 400px
-- Background color: black
-- Granny image
-- Alien image
+- Game screen size: 600px 400px, center, top
+- Game screen background color: black
+- Granny image: center, bottom
+- Alien images: center, top
 - Alien amount: 6
+- Aliens move from right to left, top to bottom
+- Shooting: heart
+- Heart: moves from granny right up
+- Button text color: white
+- Button text color hover over: standard yellow
+- Restart button restarts the game
 
 ![](assets/images/F9BE48.png)
 ![](assets/images/6064e8.png)
@@ -97,7 +105,8 @@ The aliens speed up fast to make the game more difficult.
 
 This game is build for the Retro Game Hackathon of Code Institute. 
 
-The basis is of the retro game Space Invader. Instead of killing we decided to make it a positive game, by shooting love / hearts.
+The basis is of the retro game Space Invader. <br>
+Instead of killing we decided to make it a positive game, by shooting love / hearts.
 
 See the live website here -> [Granny Exorsist](https://dilner1.github.io/Hackathon_Game_new/)
 
