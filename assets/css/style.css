@@ -9,15 +9,14 @@ body {
     font-family: 'Press Start 2P', cursive;
     background-color: #6064E8;
     background-repeat: none;
-    background-size: cover;    
+    background-size: cover;
 }
 
 .container {
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     border: 10px;
 }
-
 
 #game_heading {
     font-size: 5rem;
@@ -35,6 +34,7 @@ body {
     overflow: hidden;
     margin-top: 35px;
 }
+
 #intro-screen {
     background: url('../images/intro-background.png');
     background-repeat: no-repeat;
@@ -43,6 +43,7 @@ body {
     height: 450px;
     justify-content: center;
 }
+
 #intro-text {
     position: relative;
     text-align: center;
@@ -55,22 +56,23 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
+
 #intro-text p {
     text-align: center;
     line-height: 60px;
     font-size: large;
     text-shadow: 1px 1px 2px black;
 }
+
 @keyframes text-scroll {
-    0%
-    {
+    0% {
         top: 0;
     }
-    100%
-    {
+    100% {
         top: -1610px;
     }
 }
+
 .rain {
     width: 720px;
     height: 450px;
@@ -80,6 +82,7 @@ body {
     animation: rain .123s linear infinite;
     transition: ease-in;
 }
+
 .rain:before {
     content: '';
     position: absolute;
@@ -89,47 +92,39 @@ body {
     animation: lightning 6s linear infinite;
     opacity: 0;
 }
+
 @keyframes rain {
-    0%
-    {
+    0% {
         background-position: 0% 0%;
     }
-    100%
-    {
+    100% {
         background-position: 5% 100%;
     }
 }
+
 @keyframes lightning {
-    0%
-    {
+    0% {
         opacity: 0;
     }
-    10%
-    {
+    10% {
         opacity: 0;
     }
-    11%
-    {
+    11% {
         opacity: .7;
     }
-    14%
-    {
+    14% {
         opacity: 0;
     }
-    20%
-    {
+    20% {
         opacity: 0;
     }
-    21%
-    {
+    21% {
         opacity: .5;
     }
-    24%
-    {
+    24% {
         opacity: 0;
     }
-    104%
-    {
+    104% {
         opacity: 0;
     }
 }
@@ -151,16 +146,26 @@ body {
     color: yellow;
 }
 
-#canvas {
-    display: flex; 
+.main_screen {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.left_text {
-    float: left;
-    position:absolute;
-    padding: 5% 0 5% 7%;
+#canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+}
+
+.left_panel {
     color: white;
     line-height: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+.right_panel {
+    width: 100%;
 }
