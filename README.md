@@ -1,6 +1,6 @@
 ![](assets/images/header.JPG)
 
-**A great evil is sturring**
+<h1>A great evil is sturring</h1> :skull_and_crossbones:
 
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
@@ -29,17 +29,21 @@ Only she can thwart this great evil.....
 
 She is....
 
-**Granny Exorsist**
+<h1>Granny Exorsist</h1>
 
 ![](assets/images/granny-small.png)
 
 Granny is bursting with love and isn't affraid to use it! 
 
-:heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart:
+:heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart:
+
+But time is ticking.....
+
+:clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230:
 
 ![](assets/images/blue.png)
 
-## UX Design
+## UX Design :art:
 You will start at the landing page, where you can find the story about the game. <br>
 This game is build in retro style with old fashion colors, font family and image styles. 
 
@@ -55,10 +59,13 @@ The aliens speed up fast to make the game more difficult.
 
 ![](assets/images/yellow.png)
 
-## Features
+## Features :pencil2:
 - Google Font Family: Press Start 2P
 - Background color: #6064E8
-### Heading
+
+![](assets/images/blue.png)
+
+### Heading :crayon:
 - Background color: #F9BE48
 - Text color: #FFFFFF / white
 
@@ -66,8 +73,9 @@ The aliens speed up fast to make the game more difficult.
 ![](assets/images/F9BE48.png)
 ![](assets/images/6064e8.png)
 
+![](assets/images/yellow.png)
 
-### Landing Page
+### Landing Page :world_map:
 #### Underneath the story screen
 - Button text color: white
 - Button text color hover over: standard yellow
@@ -78,7 +86,10 @@ The aliens speed up fast to make the game more difficult.
 - Over the image: rain and lightning
 - Story text movement: bottom to top
 - Story text color: standard yellow
-### Game Page
+
+![](assets/images/blue.png)
+
+### Game Page :mag:
 - Music starts
 #### Left of the game
 - Instruction text color: white
@@ -101,27 +112,27 @@ The aliens speed up fast to make the game more difficult.
 - When all the aliens are shot: Granny Wins! text appears
 - Text color: white
 
-![](assets/images/blue.png)
+![](assets/images/yellow.png)
 
-## Technologies
-### Languages
+## Technologies :wrench:
+### Languages :hammer:
 - HTML5
 - CSS
 - JavaScript
-### Frameworks, Libraries & Programs
+### Frameworks, Libraries & Programs :gear:
 - GitHub
 - GitPod
 - Google Fonts
 - Iamresponsivedesign
 
-## Testing
+## Testing :probing_cane:
 - HTML: validator.w3.org
 - CSS: jigsaw.w3.org
 - JavaScript: beautifytools.com
 
-![](assets/images/yellow.png)
+![](assets/images/blue.png)
 
-## Deployment
+## Deployment :hammer_and_wrench
 
 This game is build for the Retro Game Hackathon of Code Institute. 
 
@@ -130,19 +141,19 @@ Instead of killing we decided to make it a positive game, by shooting love / hea
 
 See the live website here -> [Granny Exorsist](https://dilner1.github.io/Hackathon_Game_new/)
 
-![](assets/images/blue.png)
+![](assets/images/yellow.png)
 
-## Credits
+## Credits :trophy:
 
-### Game basics
+### Game basics :bricks:
 - [Rain effect animation tutorial](https://www.youtube.com/watch?v=UuGyvCYWI3I)
 
-### Images
+### Images :camera_flash:
 - [Vecteezy](https://www.vecteezy.com) 
 - [Itch](https://itch.io/)
 - [Freepik](https://www.freepik.com/)
 
-### Audio
+### Audio :guitar:
 - [Freesound](https://freesound.org/)
 
-![](assets/images/yellow.png)
+![](assets/images/blue.png)
