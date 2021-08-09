@@ -21,20 +21,7 @@ body {
     background-size: cover;
     padding: 1rem;
 }
-#start-screen-wrapper {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    overflow: hidden;
-}
-#start-screen {
-    background: url('../images/start.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 600px;
-    height: 400px;
-    justify-content: center;
-}
+
 #intro-screen-wrapper {
     width: 100%;
     display: flex;
