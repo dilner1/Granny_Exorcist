@@ -5,6 +5,7 @@ var grannyImg;
 var heartImg;
 var monsterImg;
 var monsterImgHit;
+var font;
 var monsters = [];
 var hearts = [];
 
@@ -12,6 +13,7 @@ function preload() {
     grannyImg = loadImage('assets/images/granny.png');
     heartImg = loadImage('assets/images/heart_one.png');
     monsterImg = loadImage('assets/images/monster_one.png');
+    font = loadFont('assets/PressStart2P-Regular.ttf');
 }
 
 function setup() {
@@ -39,14 +41,20 @@ function draw() {
                 // calculating the score of granny and removing the dead monster
                 let score = monsters[j].change();
                 monsters.splice(j, 1)
+
+                // WIN SCREEN
                 if (score === 6) {
                     // alert(score);
+                    for (var i = 0; i < hearts.length; i++) {
+                        hearts[i].evaporate();
+                    }
+                    background(51, 51, 51);
                     fill(255);
-                    textSize(40);
-                    textAlign(CENTER, CENTER)
+                    textFont(font, 35);
+                    textAlign(CENTER, CENTER);
                     text("Granny Wins!", width / 2, height / 2);
+                    frameRate(0);
                 }
-
                 hearts[i].evaporate();
             }
         }
