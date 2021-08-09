@@ -9,6 +9,36 @@ var font;
 var monsters = [];
 var hearts = [];
 
+// code for the countdown timer
+const timeH = document.querySelector('h3');
+const numOfMonsters = 8;
+var timeSpan = 20; // timer set to 20 secs
+
+var timeOut = 0;
+
+displayTime(timeSpan);
+
+const countDown = setInterval(()=>{
+    timeSpan--;
+    displayTime(timeSpan);
+    if (timeSpan <=0 ){
+        timeUp()
+        clearInterval(countDown);
+    }
+},1000);
+
+function displayTime(second){
+    let min = Math.floor(second / 60);
+    let sec = Math.floor(second % 60);
+    timeH.innerHTML = `${min < 10 ? '0' : ''}${min}:${sec < 10 ? '0' : ''}${sec}`;
+}
+
+function timeUp(){
+    timeH.innerHTML = "<red>TIME OUT</red>";
+    timeOut = 1;
+}
+// End of timer code
+
 function preload() {
     grannyImg = loadImage('assets/images/granny.png');
     heartImg = loadImage('assets/images/heart_one.png');
@@ -17,12 +47,12 @@ function preload() {
 }
 
 function setup() {
-    cnv = createCanvas(600, 400);
+    cnv = createCanvas(720, 450);
     cnv.parent('canvas');
 
     granny = new Granny();
-    // drop = new Drop(width/2, height/2);
-    for (var i = 0; i < 6; i++) {
+  
+    for (var i = 0; i < numOfMonsters; i++) {
         monsters[i] = new Monster(i * 80 + 80, 60);
     }
 }
@@ -37,18 +67,28 @@ function draw() {
         hearts[i].move();
         for (var j = 0; j < monsters.length; j++) {
             if (hearts[i].hits(monsters[j])) {
-                //monsters[j].grow();
+            
                 // calculating the score of granny and removing the dead monster
-                let score = monsters[j].change();
+                
+                if (timeOut != 1){
+                    let score = monsters[j].change();
+                    if (score == numOfMonsters){
+                        document.getElementById('score').innerHTML = "GRANNY WINS";
+                    }else{
+                        document.getElementById('score').innerHTML = score;
+                    }
+                }
+                
                 monsters.splice(j, 1)
 
                 // WIN SCREEN
-                if (score === 6) {
+                if (score === numOfMonsters) {
                     // alert(score);
                     for (var i = 0; i < hearts.length; i++) {
                         hearts[i].evaporate();
                     }
                     background(51, 51, 51);
+
                     fill(255);
                     textFont(font, 35);
                     textAlign(CENTER, CENTER);

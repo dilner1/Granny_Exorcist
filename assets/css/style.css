@@ -9,9 +9,15 @@ body {
     font-family: 'Press Start 2P', cursive;
     background-color: #6064E8;
     background-repeat: none;
-    background-size: cover;
-
+    background-size: cover;    
 }
+
+.container {
+    display: flex;
+    justify-content: center ;
+    border: 10px;
+}
+
 
 #game_heading {
     font-size: 5rem;
@@ -145,7 +151,7 @@ body {
 }
 
 #canvas {
-    display: flex;
+    display: flex; 
     justify-content: center;
     align-items: center;
 }

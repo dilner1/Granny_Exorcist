@@ -5,9 +5,7 @@ function Granny() {
 
     // this is what gives the ship its color, size
     this.show = function() {
-        // fill(255); //White color
-        // rectMode(CENTER);
-        // rect(this.x, height-20, 20, 60); // Shape of "ship"
+     
         image(grannyImg, this.x, height - 60, 35, 60);
     }
 
