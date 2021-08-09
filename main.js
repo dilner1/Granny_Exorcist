@@ -5,7 +5,7 @@ var grannyImg;
 var heartImg;
 var monsterImg;
 var monsterImgHit;
-var flowers = [];
+var monsters = [];
 var hearts = [];
 
 function preload() {
@@ -21,7 +21,7 @@ function setup() {
     granny = new Granny();
     // drop = new Drop(width/2, height/2);
     for (var i = 0; i < 6; i++) {
-        flowers[i] = new Flower(i * 80 + 80, 60);
+        monsters[i] = new Monster(i * 80 + 80, 60);
     }
 }
 
@@ -33,20 +33,20 @@ function draw() {
     for (var i = 0; i < hearts.length; i++) {
         hearts[i].show();
         hearts[i].move();
-        for (var j = 0; j < flowers.length; j++) {
-            if (hearts[i].hits(flowers[j])) {
-                //flowers[j].grow();
+        for (var j = 0; j < monsters.length; j++) {
+            if (hearts[i].hits(monsters[j])) {
+                //monsters[j].grow();
                 // calculating the score of granny and removing the dead monster
-                let score = flowers[j].change(); 
-                flowers.splice(j, 1)
-                if (score === 6){
+                let score = monsters[j].change();
+                monsters.splice(j, 1)
+                if (score === 6) {
                     // alert(score);
                     fill(255);
                     textSize(40);
                     textAlign(CENTER, CENTER)
-                    text("Granny Wins!", width/2, height/2);
-                } 
-                
+                    text("Granny Wins!", width / 2, height / 2);
+                }
+
                 hearts[i].evaporate();
             }
         }
@@ -56,17 +56,17 @@ function draw() {
 
     // Edge detection
 
-    for (var i = 0; i < flowers.length; i++) {
-        flowers[i].show();
-        flowers[i].move();
-        if (flowers[i].x > width || flowers[i].x < 0) {
+    for (var i = 0; i < monsters.length; i++) {
+        monsters[i].show();
+        monsters[i].move();
+        if (monsters[i].x > width || monsters[i].x < 0) {
             edge = true;
         }
     }
 
     if (edge) {
-        for (var i = 0; i < flowers.length; i++) {
-            flowers[i].shiftDown();
+        for (var i = 0; i < monsters.length; i++) {
+            monsters[i].shiftDown();
         }
     }
 
@@ -90,7 +90,7 @@ function keyPressed() {
         var heart = new Heart(granny.x, height);
         hearts.push(heart);
     }
-    
+
     if (keyCode === RIGHT_ARROW) {
         granny.setDir(1);
     } else if (keyCode === LEFT_ARROW) {
