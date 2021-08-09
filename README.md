@@ -27,7 +27,7 @@ Only she can thwart this great evil.....
 She is....
 </font>
 
-<font size="5">The Granny Exorcist</font>
+![](assets/images/header.JPG)
 
 ![](assets/images/granny-small.png)
 
@@ -52,7 +52,7 @@ The aliens speed up fast to make the game more difficult.
 ## Features
 - Font Family: Press Start 2P
 ### Heading
-- Background color: F9BE48
+- Background color: #F9BE48
 - Text color: #FFFFFF
 - Font Family: Press Start 2P
 ### Landing Page
@@ -64,8 +64,11 @@ The aliens speed up fast to make the game more difficult.
 - Game screen size: 600px 400px
 - Background color: black
 - Granny image
-- Bubbles color: purple
-- Bubble amount: 6
+- Alien image
+- Alien amount: 6
+
+![](assets/images/F9BE48.png)
+![](assets/images/6064e8.png)
 
 ## Technologies
 ### Languages
