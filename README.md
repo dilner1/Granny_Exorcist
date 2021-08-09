@@ -1,10 +1,12 @@
-# Granny Exorcist
-<font size="5">A great evil is sturring :imp: </font>
+![](assets/images/header.JPG)
+
+<font size="5">A great evil is sturring </font>
 
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
+
 
 <font size="4">
 
@@ -13,6 +15,8 @@ People do not have as much hope and optimism as they once did.
 The bad vibes are manifesting themselves as evil spirits and soon ...... 
 
 They will spill out into our plane of existence.
+
+![](assets/images/intro-background.png)
 
 But all hope is not lost.
 
@@ -27,13 +31,16 @@ Only she can thwart this great evil.....
 She is....
 </font>
 
-![](assets/images/header.JPG)
+<font size="6">Granny Exorsist
+</font>
 
 ![](assets/images/granny-small.png)
 
 <font size="4">
-Granny is bursting with love and isn't affraid to use it! :heart:
+Granny is bursting with love and isn't affraid to use it! 
 </font>
+
+:heart: :heart: :heart: :heart: :heart: :heart: :heart:
 
 ## UX Design
 You will start at the landing page, where you can find the story about the game. <br>
