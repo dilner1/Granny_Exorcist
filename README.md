@@ -1,14 +1,13 @@
 ![](assets/images/header.JPG)
 
-<font size="5">A great evil is sturring </font>
+**A great evil is sturring**
 
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
-
-
-<font size="4">
+![](assets/images/monster_one-small.png)
+![](assets/images/monster_one-small.png)
 
 People do not have as much hope and optimism as they once did.
 
@@ -29,18 +28,14 @@ With the ultimate power of love and happiness.
 Only she can thwart this great evil.....
 
 She is....
-</font>
 
-<font size="6">Granny Exorsist
-</font>
+**Granny Exorsist**
 
 ![](assets/images/granny-small.png)
 
-<font size="4">
 Granny is bursting with love and isn't affraid to use it! 
-</font>
 
-:heart: :heart: :heart: :heart: :heart: :heart: :heart:
+:heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart:
 
 ![](assets/images/blue.png)
 
@@ -73,24 +68,36 @@ The aliens speed up fast to make the game more difficult.
 
 
 ### Landing Page
-- Story screen size: 600px 400px, center, top
-- Story screen background: image
-- Story text color: standard yellow
+#### Underneath the story screen
 - Button text color: white
 - Button text color hover over: standard yellow
 - Start button links to game page
+#### Story screen
+- Story screen size: 600px 400px, center, top
+- Story screen background: image
+- Over the image: rain and lightning
+- Story text movement: bottom to top
+- Story text color: standard yellow
 ### Game Page
-- Game screen size: 600px 400px, center, top
-- Game screen background color: black
-- Granny image: center, bottom
-- Alien images: center, top
-- Alien amount: 6
-- Aliens move from right to left, top to bottom
-- Shooting: heart
-- Heart: moves from granny right up
+- Music starts
+#### Left of the game
+- Instruction text color: white
+#### Underneath the game
 - Button text color: white
 - Button text color hover over: standard yellow
 - Restart button restarts the game
+#### The game
+- Game screen size: 600px 400px, center, top
+- Game screen background color: black
+- Granny image: center, bottom
+- Move granny: left & right arrows on keyboard
+- Alien images: center, top
+- Alien amount: 6
+- Aliens move from right to left & back, top to bottom
+- Shooting image: heart
+- Shooting key: spacebar
+- Heart: moves from granny right up
+#### After game
 - When all the aliens are shot: Granny Wins! text appears
 - Text color: white
 
@@ -127,8 +134,15 @@ See the live website here -> [Granny Exorsist](https://dilner1.github.io/Hackath
 
 ## Credits
 
-** info
+### Game basics
+- [Rain effect animation tutorial](https://www.youtube.com/watch?v=UuGyvCYWI3I)
 
-** game basis from...
+### Images
+- [Vecteezy](https://www.vecteezy.com) 
+- [Itch](https://itch.io/)
+- [Freepik](https://www.freepik.com/)
 
-** images from...
+### Audio
+- [Freesound](https://freesound.org/)
+
+![](assets/images/yellow.png)
