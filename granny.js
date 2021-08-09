@@ -16,6 +16,6 @@ function Granny() {
     }
 
     this.move = function(dir) {
-        this.x += this.xdir * 5; // Move by '5' pixels
+        this.x += this.xdir * 3; // Move by '5' pixels
     }
 }
