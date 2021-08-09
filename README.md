@@ -42,6 +42,8 @@ Granny is bursting with love and isn't affraid to use it!
 
 :heart: :heart: :heart: :heart: :heart: :heart: :heart:
 
+![](assets/images/blue.png)
+
 ## UX Design
 You will start at the landing page, where you can find the story about the game. <br>
 This game is build in retro style with old fashion colors, font family and image styles. 
@@ -56,12 +58,20 @@ The aliens speed up fast to make the game more difficult.
 
 ![](assets/images/website.JPG)
 
+![](assets/images/yellow.png)
+
 ## Features
 - Google Font Family: Press Start 2P
 - Background color: #6064E8
 ### Heading
 - Background color: #F9BE48
 - Text color: #FFFFFF / white
+
+
+![](assets/images/F9BE48.png)
+![](assets/images/6064e8.png)
+
+
 ### Landing Page
 - Story screen size: 600px 400px, center, top
 - Story screen background: image
@@ -81,9 +91,10 @@ The aliens speed up fast to make the game more difficult.
 - Button text color: white
 - Button text color hover over: standard yellow
 - Restart button restarts the game
+- When all the aliens are shot: Granny Wins! text appears
+- Text color: white
 
-![](assets/images/F9BE48.png)
-![](assets/images/6064e8.png)
+![](assets/images/blue.png)
 
 ## Technologies
 ### Languages
@@ -101,6 +112,8 @@ The aliens speed up fast to make the game more difficult.
 - CSS: jigsaw.w3.org
 - JavaScript: beautifytools.com
 
+![](assets/images/yellow.png)
+
 ## Deployment
 
 This game is build for the Retro Game Hackathon of Code Institute. 
@@ -109,6 +122,8 @@ The basis is of the retro game Space Invader. <br>
 Instead of killing we decided to make it a positive game, by shooting love / hearts.
 
 See the live website here -> [Granny Exorsist](https://dilner1.github.io/Hackathon_Game_new/)
+
+![](assets/images/blue.png)
 
 ## Credits
 
