@@ -1,6 +1,6 @@
 // This is for the bullets (Called drops for the moment) etc whatever we want to shoot
 
-  
+
 function Heart(x, y, size) {
     this.x = x;
     this.y = y;
@@ -29,7 +29,7 @@ function Heart(x, y, size) {
     };
 
     this.move = function() {
-        this.y = this.y - 5; // Spacing for the bullets being shot.
+        this.y = this.y - 3.5; // Spacing for the bullets being shot.
     }
 }
 
@@ -41,4 +41,3 @@ function heartShape(x, y, size) {
     bezierVertex(x + size, y + size / 3, x + size / 2, y - size / 2, x, y);
     endShape(CLOSE);
 }
-
