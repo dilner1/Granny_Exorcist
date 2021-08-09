@@ -1,57 +1,53 @@
 # Granny Exorcist
-<font size="6"><span style="color: red">A great evil is sturring :imp: </span></font>
-
-:imp: :imp: :imp: :imp:
+<font size="5">A great evil is sturring :imp: </font>
 
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
 
-<font size="4"><span style="color: orange">
-People do not have as much hope and optimism as they once did 
-<br>
-<span style="color: orange">
+<font size="4">
+
+People do not have as much hope and optimism as they once did.
+
 The bad vibes are manifesting themselves as evil spirits and soon ...... 
-<br>
-<span style="color: orange">
-they will spill out into our plane of existence
-<br>
-<span style="color: orange">
-but all hope is not lost
-<br>
-<span style="color: orange">
+
+They will spill out into our plane of existence.
+
+But all hope is not lost.
+
 There is one person who can save us ..
-<br>
-<span style="color: orange">
-A hero of an age long past.. the 1960's
-<br>
-<span style="color: orange">
-With the ultimate power of love and happiness
-<br>
-<span style="color: orange">
-only she can thwart this great evil.....
-<br>
-<span style="color: orange">
-she is....
+
+A hero of an age long past.. the 1960's.
+
+With the ultimate power of love and happiness.
+
+Only she can thwart this great evil.....
+
+She is....
 </font>
 
-<font size="6"><span style="color: green"> The Granny Exorcist </span></font>
+<font size="5">The Granny Exorcist</font>
 
 ![](assets/images/granny-small.png)
 
-<span style="color: pink"><font size="4">
-Grandma is bursting with love and isn't affraid to use it! 
-:heart:
-
+<font size="4">
+Granny is bursting with love and isn't affraid to use it! :heart:
 </font>
 
 ## UX Design
-You will start at the landing page, where you can find the story about the game. This game is build in retro style with old fashion colors, font family and image style. 
+You will start at the landing page, where you can find the story about the game. <br>
+This game is build in retro style with old fashion colors, font family and image styles. 
 
-When you click the start button, you will get directed to the game page.
+When you click the start button, you will get directed to the game page.<br>
+The game instructions will be displayed on the left. <br>
+The restart button will restart the game.
 
-** website image game = iamresponsive, when game is ready
+Granny is easy to control by sending her from left to right with the keyboard arrows. <br>
+Shooting the :heart: is with the space button. <br>
+The aliens speed up fast to make the game more difficult.
+
+![](assets/images/website.JPG)
 
 ## Features
 - Font Family: Press Start 2P
