@@ -66,7 +66,9 @@ When you click the start button, you will get directed to the game page.
 
 ## Deployment
 
-** info
+This game is build for the Retro Game Hackathon of Code Institute. 
+
+The basis is of the retro game Space Invader. Instead of killing we decided to make it a positive game, by shooting love / hearts.
 
 See the live website here -> [Granny Exorsist](https://dilner1.github.io/Hackathon_Game_new/)
 
