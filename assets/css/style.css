@@ -33,13 +33,14 @@ body {
     display: flex;
     justify-content: center;
     overflow: hidden;
+    margin-top: 35px;
 }
 #intro-screen {
     background: url('../images/intro-background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 600px;
-    height: 400px;
+    width: 720px;
+    height: 450px;
     justify-content: center;
 }
 #intro-text {
@@ -71,8 +72,8 @@ body {
     }
 }
 .rain {
-    width: 600px;
-    height: 400px;
+    width: 720px;
+    height: 450px;
     z-index: 1;
     background: url('../images/rain.png') no-repeat center center;
     background-size: cover;
@@ -82,8 +83,8 @@ body {
 .rain:before {
     content: '';
     position: absolute;
-    width: 600px;
-    height: 400px;
+    width: 720px;
+    height: 450px;
     background: #FFFFFF;
     animation: lightning 6s linear infinite;
     opacity: 0;
