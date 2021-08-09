@@ -1,6 +1,6 @@
 ![](assets/images/header.JPG)
 
-<h1>A great evil is sturring</h1> :skull_and_crossbones:
+<h1>A great evil is sturring :skull_and_crossbones: </h1>
 
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
@@ -8,6 +8,9 @@
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
 ![](assets/images/monster_one-small.png)
+![](assets/images/monster_one-small.png)
+![](assets/images/monster_one-small.png)
+
 
 People do not have as much hope and optimism as they once did.
 
@@ -35,11 +38,11 @@ She is....
 
 Granny is bursting with love and isn't affraid to use it! 
 
-:heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart:
+:heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart: :heart:
 
 But time is ticking.....
 
-:clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230:
+:clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230: :clock230:
 
 ![](assets/images/blue.png)
 
@@ -69,7 +72,6 @@ The aliens speed up fast to make the game more difficult.
 - Background color: #F9BE48
 - Text color: #FFFFFF / white
 
-
 ![](assets/images/F9BE48.png)
 ![](assets/images/6064e8.png)
 
@@ -83,27 +85,35 @@ The aliens speed up fast to make the game more difficult.
 #### Story screen
 - Story screen size: 600px 400px, center, top
 - Story screen background: image
-- Over the image: rain and lightning
+- On top of the image: rain and lightning effect
 - Story text movement: bottom to top
 - Story text color: standard yellow
 
 ![](assets/images/blue.png)
 
-### Game Page :mag:
+### Game Page :joystick: 
 - Music starts
 #### Left of the game
 - Instruction text color: white
+#### Above the game
+- Text color: black
+- Text left: 0:20 (seconds)
+- Time counts down
+- When time is finshed text: TIME OUT
+- Text right: Score: 0
+- When a ien gets hit: score gets up by 1
+- When all aliens are hit: Score: GRANNY WINS
 #### Underneath the game
 - Button text color: white
 - Button text color hover over: standard yellow
 - Restart button restarts the game
 #### The game
 - Game screen size: 600px 400px, center, top
-- Game screen background color: black
+- Game screen background color: dark grey
 - Granny image: center, bottom
 - Move granny: left & right arrows on keyboard
 - Alien images: center, top
-- Alien amount: 6
+- Alien amount: 8
 - Aliens move from right to left & back, top to bottom
 - Shooting image: heart
 - Shooting key: spacebar
@@ -126,13 +136,13 @@ The aliens speed up fast to make the game more difficult.
 - Iamresponsivedesign
 
 ## Testing :probing_cane:
-- HTML: validator.w3.org
-- CSS: jigsaw.w3.org
-- JavaScript: beautifytools.com
+- [HTML](https://validator.w3.org)
+- [CSS](https://jigsaw.w3.org)
+- [JavaScript](https://beautifytools.com)
 
 ![](assets/images/blue.png)
 
-## Deployment :hammer_and_wrench
+## Deployment :hammer_and_wrench:
 
 This game is build for the Retro Game Hackathon of Code Institute. 
 
@@ -144,15 +154,12 @@ See the live website here -> [Granny Exorsist](https://dilner1.github.io/Hackath
 ![](assets/images/yellow.png)
 
 ## Credits :trophy:
-
 ### Game basics :bricks:
 - [Rain effect animation tutorial](https://www.youtube.com/watch?v=UuGyvCYWI3I)
-
 ### Images :camera_flash:
 - [Vecteezy](https://www.vecteezy.com) 
 - [Itch](https://itch.io/)
 - [Freepik](https://www.freepik.com/)
-
 ### Audio :guitar:
 - [Freesound](https://freesound.org/)
 
