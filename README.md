@@ -64,12 +64,12 @@ The aliens speed up fast to make the game more difficult.
 
 ## Features :pencil2:
 - Google Font Family: Press Start 2P
-- Background color: #6064E8
+- Background color: #6064E8 / blue
 
 ![](assets/images/blue.png)
 
 ### Heading :crayon:
-- Background color: #F9BE48
+- Background color: #F9BE48 / yellow
 - Text color: #FFFFFF / white
 
 ![](assets/images/F9BE48.png)
@@ -118,7 +118,7 @@ The aliens speed up fast to make the game more difficult.
 - Shooting image: heart
 - Shooting key: spacebar
 - Heart: moves from granny right up
-#### After game
+#### After the game
 - When all the aliens are shot: Granny Wins! text appears
 - Text color: white
 
@@ -134,6 +134,13 @@ The aliens speed up fast to make the game more difficult.
 - GitPod
 - Google Fonts
 - Iamresponsivedesign
+### Technologies left to implement :telescope:
+- Different types of aliens
+- Landing page music
+- Shooting sound effect
+- Alien hitting sound effect
+- Animation when granny dies
+- More levels
 
 ## Testing :probing_cane:
 - [HTML](https://validator.w3.org)
