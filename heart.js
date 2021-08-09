@@ -9,9 +9,7 @@ function Heart(x, y, size) {
     this.show = function() {
         noStroke();
         fill(255, 0, 0);
-        // ellipse(this.x, this.y, this.r * 1, this.r * 2);
         heartShape(this.x, this.y, 20);
-        //image(heartImg, this.x, y - 20, 20, 20);
     }
 
     this.evaporate = function() {
@@ -19,9 +17,9 @@ function Heart(x, y, size) {
     };
 
     // r = radius ;-) 
-    this.hits = function(flower) {
-        var d = dist(this.x, this.y, flower.x, flower.y);
-        if (d < this.r + flower.r) {
+    this.hits = function(monster) {
+        var d = dist(this.x, this.y, monster.x, monster.y);
+        if (d < this.r + monster.r) {
             return true;
         } else {
             return false;
@@ -29,7 +27,7 @@ function Heart(x, y, size) {
     };
 
     this.move = function() {
-        this.y = this.y - 3.5; // Spacing for the bullets being shot.
+        this.y = this.y - 10; // Spacing for the bullets being shot.
     }
 }
 
